@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-29T00:32:54Z",
+  "scripts": [
+    {
+      "id": "hello-banner",
+      "name": "Hello Banner",
+      "latest": "1.1.0",
+      "path": "scripts/hello-banner/info.json"
+    }
+  ],
+  "submodules": [
+    {
+      "id": "test-echo",
+      "name": "Test Echo",
+      "provides": "bw.testEcho",
+      "latest": "1.1.0",
+      "path": "submodules/test-echo/info.json"
+    }
+  ]
+}

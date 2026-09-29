@@ -1,0 +1,24 @@
+{
+  "id": "test-echo",
+  "name": "Test Echo",
+  "author": "Friczh",
+  "description": "Adds bw.testEcho.echo/ping. Test fixture.",
+  "provides": "bw.testEcho",
+  "grants": [
+    "bw.tabs"
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "hash": "sha256:66f66828ab7045388c19d11e4c15d319f16525410ca5a6c721a28b80a7a80fdc",
+      "file": "versions/1.0.0.js",
+      "changelog": "Initial release."
+    },
+    {
+      "version": "1.1.0",
+      "hash": "sha256:e48e07ee2d9ca6d74bb5e4f76107af09e84edc9322a61f07f8e56c57cf55457f",
+      "file": "versions/1.1.0.js",
+      "changelog": "Add ping."
+    }
+  ]
+}

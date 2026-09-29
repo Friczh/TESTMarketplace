@@ -1,0 +1,27 @@
+{
+  "id": "hello-banner",
+  "name": "Hello Banner",
+  "author": "Friczh",
+  "description": "Shows a banner on example.com. Test fixture.",
+  "match": [
+    "*://example.com/*"
+  ],
+  "grants": [
+    "bw.dom"
+  ],
+  "modules": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "hash": "sha256:85a6398058bcdbd91b372ca3a67ae90a9a99c340c2adee03b9a59de134994fef",
+      "file": "versions/1.0.0.user.js",
+      "changelog": "Initial release."
+    },
+    {
+      "version": "1.1.0",
+      "hash": "sha256:19487db8892ba28ca777792817061d79be32a0c96b74441d6de4e79a0a0ca544",
+      "file": "versions/1.1.0.user.js",
+      "changelog": "Pink banner."
+    }
+  ]
+}
